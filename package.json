@@ -1,0 +1,26 @@
+{
+  "name": "Library-Management-System",
+  "version": "1.0.0",
+  "description": "Library Management System API",
+  "main": "app.js",
+  "author": "A Samod",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "pino": "^7.11.0",
+    "pino-pretty": "^7.6.1"
+  }
+}
